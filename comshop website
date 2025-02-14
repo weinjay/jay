@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KuyaVin.Co</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Changed to white */
+            color: #060061; /* Changed to dark blue */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #060061;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid #333; /* Changed to dark blue */
+        }
+        header img.logo {
+            width: 250px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #060061; /* Changed to dark blue */
+            padding: 10px;
+            border-bottom: 4px solid #ffffff; /* Changed to white */
+        }
+        nav a {
+            color: #ffffff; /* Changed to white */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #060061; /* Changed to dark blue */
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin: 40px 0;
+            padding: 20px;
+            background-color: #f5f5f5; /* Changed to white */
+            border: 1px solid #060061; /* Changed to dark blue */
+            border-radius: 10px;
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        footer {
+            background-color: #060061; /* Changed to dark blue */
+            padding: 20px;
+            text-align: center;
+            border-top: 4px solid #ffffff; /* Changed to white */
+        }
+        img {
+            width: 100%;
+            max-width: 300px;  /* Adjust max-width for balance */
+            height: auto;
+            margin: 20px auto;
+            display: block;
+        }
+        .developer img {
+            width: 300px;  /* Ensure consistent size for developer image */
+            height: auto;
+            margin: 20px auto;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #060061; /* Changed to dark blue */
+            border-radius: 5px;
+            background-color: #ffffff; /* Changed to white */
+            color: #060061; /* Changed to dark blue */
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #060061; /* Changed to dark blue */
+            color: #ffffff; /* Changed to white */
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #333; /* Changed to dark blue */
+        }
+        .highlight {
+            font-family: 'Pacifico', cursive;
+            font-size: 1.5em;
+            color: #060061; /* Changed to dark blue */
+            
+        }
+
+        /* Custom Style for Layout Image */
+        #Layout img {
+            width: 100%; /* Ensure the image takes full width */
+            max-width: 900px; /* Increase the max-width for a larger image */
+            height: auto; /* Maintain aspect ratio */
+            margin: 20px auto; /* Center it with some spacing */
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/2.jpg" alt="Tarpaulin" class="tarpaulin">
+        <img src="/1.png" alt="KuyaVin.Co Logo" class="logo">
+        <h1>KuyaVin.Co</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <a href="#developer">Developer</a>
+        <a href="#Layout">Layout</a> <!-- Removed extra ">" -->
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to KuyaVin.Co!</h2>
+            <p class="highlight">𝙒𝙚 𝙤𝙛𝙛𝙚𝙧 𝙖 𝙬𝙞𝙙𝙚 𝙧𝙖𝙣𝙜𝙚 𝙤𝙛 𝙨𝙚𝙧𝙫𝙞𝙘𝙚𝙨 𝙩𝙤 𝙢𝙚𝙚𝙩 𝙖𝙡𝙡 𝙮𝙤𝙪𝙧 𝙣𝙚𝙚𝙙𝙨.</p>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p class="highlight">𝙇𝙤𝙘𝙖𝙩𝙚𝙙 𝙞𝙣 𝘾𝙖𝙞𝙣𝙩𝙖, 𝙆𝙪𝙮𝙖𝙑𝙞𝙣.𝘾𝙤 𝙞𝙨 𝙮𝙤𝙪𝙧 𝙤𝙣𝙚-𝙨𝙩𝙤𝙥 𝙨𝙝𝙤𝙥 𝙛𝙤𝙧 𝙖𝙡𝙡 𝙮𝙤𝙪𝙧 𝙘𝙤𝙢𝙥𝙪𝙩𝙚𝙧 𝙣𝙚𝙚𝙙𝙨. 𝙒𝙚 𝙨𝙥𝙚𝙘𝙞𝙖𝙡𝙞𝙯𝙚 𝙞𝙣 𝙥𝙧𝙤𝙫𝙞𝙙𝙞𝙣𝙜 𝙝𝙞𝙜𝙝-𝙦𝙪𝙖𝙡𝙞𝙩𝙮 𝙭𝙚𝙧𝙤𝙭, 𝙥𝙧𝙞𝙣𝙩𝙞𝙣𝙜, 𝙖𝙣𝙙 𝙄𝘿 𝙥𝙞𝙘𝙩𝙪𝙧𝙚 𝙨𝙚𝙧𝙫𝙞𝙘𝙚𝙨 𝙩𝙤 𝙢𝙚𝙚𝙩 𝙮𝙤𝙪𝙧 𝙥𝙚𝙧𝙨𝙤𝙣𝙖𝙡 𝙖𝙣𝙙 𝙥𝙧𝙤𝙛𝙚𝙨𝙨𝙞𝙤𝙣𝙖𝙡 𝙧𝙚𝙦𝙪𝙞𝙧𝙚𝙢𝙚𝙣𝙩𝙨.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <img src="/print.jfif" alt="Services Image">
+            <p>𝙒𝙚 𝙤𝙛𝙛𝙚𝙧 𝙘𝙤𝙢𝙥𝙪𝙩𝙚𝙧 𝙝𝙤𝙪𝙧𝙨, 𝙥𝙧𝙞𝙣𝙩𝙞𝙣𝙜, 𝙭𝙚𝙧𝙤𝙭, 𝙄𝘿 𝙥𝙞𝙘𝙩𝙪𝙧𝙚 𝙨𝙚𝙧𝙫𝙞𝙘𝙚𝙨, 𝙖𝙣𝙙 𝙢𝙤𝙧𝙚.</p>
+        </section>
+        <section id="developer">
+            <h2>Developer</h2>
+            <img src="/tg.jfif" alt="Developer Image">
+            <p>𝙏𝙝𝙞𝙨 𝙬𝙚𝙗𝙨𝙞𝙩𝙚 𝙬𝙖𝙨 𝙙𝙚𝙨𝙞𝙜𝙣𝙚𝙙 𝙖𝙣𝙙 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙙 𝙗𝙮 𝙆𝙪𝙮𝙖 𝙑𝙞𝙣 𝙖𝙣𝙙 𝙒𝙚𝙞𝙣𝙟𝙖𝙮, 𝙖 𝙥𝙖𝙨𝙨𝙞𝙤𝙣𝙖𝙩𝙚 𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧 𝙙𝙚𝙙𝙞𝙘𝙖𝙩𝙚𝙙 𝙩𝙤 𝙘𝙧𝙚𝙖𝙩𝙞𝙣𝙜 𝙨𝙚𝙖𝙢𝙡𝙚𝙨𝙨 𝙖𝙣𝙙 𝙪𝙨𝙚𝙧-𝙛𝙧𝙞𝙚𝙣𝙙𝙡𝙮 𝙙𝙞𝙜𝙞𝙩𝙖𝙡 𝙚𝙭𝙥𝙚𝙧𝙞𝙚𝙣𝙘𝙚𝙨.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="your-backend-script-url" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section id="Layout">
+            <h2>Layout</h2>
+            <img src="/layout.png" alt="Layout Image">
+            <p> A computer layout organizes 20 computers and 2 servers across 2  floors,with each server managing 10 computers.
+                The computers connect via a local network, ensuring efficient communication and resource sharing. Servers may be linked for better management,
+                while proper cable organization, ventilation, and security measures maintain system reliability and protection
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 KuyaVin.Co | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
